@@ -7,3 +7,78 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shared style */
+.display-flex{
+    display: flex;
+}
+
+
+/* header style */
+
+
+
+/* navbar style */
+.nav-item{
+    list-style: none; 
+    margin-right: 30px;
+}
+
+.nav-links{
+    font-weight: 18px;
+    color: #424242;
+}
+
+.navbar{
+    justify-content: space-between;
+}
+
+.header-bg{
+    background: rgba(255, 144, 14, 0.1);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header-h2{
+    font-size: 64px;;
+    margin-bottom: 0%;
+}
+
+.btn{
+width: 180px;
+height: 64px;
+border-radius: 8px;
+background: rgb(255, 144, 14);
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+}
+
+main > section{
+    margin-top: 130px;
+}
+.main-body{
+    display: flex;
+    align-items: center;
+}
+.img-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature{
+    margin-left: 100px;
+    width: 537px;
+    height: 304px;
+}
+
+.main-h3{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
