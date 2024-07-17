@@ -36,6 +36,7 @@
 .header-bg{
     background: rgba(255, 144, 14, 0.1);
 }
+
 .header{
     display: flex;
     flex-direction: column;
@@ -43,9 +44,26 @@
     text-align: center;
 }
 
+.headerandpg{
+    width: 862px;
+    height: 225px;
+}
+
+.header-img{
+    width: 1440px;
+    height: 700px;
+    margin-bottom: 45px;
+}
+
 .header-h2{
     font-size: 64px;;
     margin-bottom: 0%;
+}
+
+.pg2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .btn{
@@ -56,6 +74,8 @@ background: rgb(255, 144, 14);
 color: rgb(255, 255, 255);
 font-size: 20px;
 font-weight: 600;
+margin-top: 60px;
+margin-bottom: 30px;
 }
 
 main > section{
@@ -64,6 +84,8 @@ main > section{
 .main-body{
     display: flex;
     align-items: center;
+    margin: 50px 300px;
+
 }
 .img-grid{
     display: grid;
@@ -81,4 +103,70 @@ main > section{
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 0%;
+}
+
+#section-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 1059px;
+    margin-left: 240px;
+    margin-right: -240px;
+    gap: 140px;
+}
+
+.section-2sub{
+    width: 586px;
+    height: 982px;
+}
+
+#section-2 .section-2-h1{
+    color: rgb(19, 19, 19);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.h4style{
+    width: 514px;
+    height: 111px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.btn10plus{
+    width: 200px;
+    height: 80px;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    font-weight: 700px;
+    font-size: 1.6rem;
+    color: white;
+    margin-top: -70px;
+    margin-left: -50px;
+}
+
+.img-architect{
+    width: 708px;
+    height: 982px;
+    margin-left: 50px;
+}
+
+.footer{
+    width: 1440px;
+    height: 40px;
+    margin-top: 150px;
+    margin-left: 240px;
+    padding-top: 25px;
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
 }
